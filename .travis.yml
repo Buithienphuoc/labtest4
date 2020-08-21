@@ -1,9 +1,8 @@
 language: java
 jdk:
-  - openjdk14
+  - openjdk10
 
 os:
-  - windows
   - linux
 
 jobs:
