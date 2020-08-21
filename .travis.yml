@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - openjdk14
+
+os:
+  - windows
+  - linux
+
+jobs:
+  include:
+    - stage: Test
+      script: ./mvnw clean test
+notifications:
+  email: tphuoc1998@gmail.com
