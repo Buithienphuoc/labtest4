@@ -1,8 +1,12 @@
 language: java
 jdk:
   - openjdk10
-
-dist: trusty
+  - openjdk11
+os:
+  - linux
+dist:
+  - trusty
+  - precise
 jobs:
   include:
     - stage: Test
